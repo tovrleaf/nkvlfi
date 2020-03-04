@@ -1,7 +1,7 @@
 .PHONY: dev
 
 start:
-	docker-compose up -d hugo
+	docker-compose up --build -d hugo
 
 stop:
 	docker-compose stop hugo
