@@ -1,0 +1,110 @@
+baseURL = "https://www.nkvl.fi/"
+languageCode = "fi"
+DefaultContentLanguage = "fi"
+title = "NKvl.fi"
+theme = "meghna-hugo"
+contentDir = "/content"
+destination = "/public"
+disabledLanguages = []
+
+############################# Navigation ##################################
+[menu]
+    [[menu.main]]
+    name = "Kuka"
+    URL = "kuka"
+    weight = 1
+
+    [[menu.main]]
+    name = "Osakeloki"
+    URL = "osakkeet"
+    weight = 2
+
+    [[menu.main]]
+    name = "Salkkuni sisältö"
+    URL = "salkku"
+    weight = 3
+
+    [[menu.main]]
+    name = "Media"
+    URL = "media"
+    weight = 4
+
+    [[menu.main]]
+    name = "Ota yhteyttä"
+    URL = "yhteys"
+    weight = 5
+
+[params]
+############################# Default Parameters ##########################
+logo = "images/logo.png"
+# Meta data
+description = "Kirjoituksia elämästäni"
+author = "Niko Kivelä"
+# Google Analitycs
+google_analitycs_id = "" # Your ID
+# post share
+post_share = true
+
+    # preloader
+    [params.preloader]
+    enable = true
+    preloader = "images/logo.png"
+
+    ############################# social icons ##########################
+    [[params.social]]
+    icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+    link = "https://www.facebook.com/tovrleaf"
+
+    [[params.social]]
+    icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+    link = "https://twitter.com/tovrleaf"
+
+    [[params.social]]
+    icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+    link = "https://www.youtube.com/channel/UCIu5T8W6P5t2RAKXWGmfdUg"
+
+    [[params.social]]
+    icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+    link = "https://www.linkedin.com/in/nikokivela/"
+
+    [[params.social]]
+    icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+    link = "https://github.com/tovrleaf/"
+
+    [[params.social]]
+    icon = "ti-instagram" # themify icon pack : https://themify.me/themify-icons
+    link = "https://www.instagram.com/tovrleaf/"
+
+    ############################# Plugins ##########################
+    [params.plugins]
+        # css plugins
+        [[params.plugins.css]]
+        link = "plugins/bootstrap/bootstrap.min.css"
+        [[params.plugins.css]]
+        link = "plugins/themify-icons/themify-icons.css"
+        [[params.plugins.css]]
+        link = "plugins/animate-css/animate.css"
+        [[params.plugins.css]]
+        link = "plugins/magnific-popup/magnific-popup.css"
+        [[params.plugins.css]]
+        link = "plugins/slick/slick.css"
+        [[params.plugins.css]]
+        link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
+
+        # js plugins
+        [[params.plugins.js]]
+        link = "plugins/jquery/jquery.min.js"
+        [[params.plugins.js]]
+        link = "plugins/bootstrap/bootstrap.min.js"
+        [[params.plugins.js]]
+        link = "plugins/slick/slick.min.js"
+        [[params.plugins.js]]
+        link = "plugins/shuffle/shuffle.min.js"
+        [[params.plugins.js]]
+        link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+        [[params.plugins.js]]
+        link = "plugins/wow/wow.min.js"
+        [[params.plugins.js]]
+        link = "plugins/lazy-load/lozad.min.js"
+        [[params.plugins.js]]
+        link = "plugins/google-map/map.js"
