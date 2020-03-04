@@ -1,0 +1,18 @@
+[about]
+enable = true
+title = 'Aloita tästä'
+[[about.about_item]]
+    icon = 'ti-pencil-alt' # themify icon pack : https://themify.me/themify-icons
+    title = 'Blogi'
+    content = 'Kirjoitan harrastuksistani - pääasiassa sijoittamisesta, joskus töistäni, toivottavasti myös musiikista: omasta ja muiden.'
+    link = '#'
+[[about.about_item]]
+    icon = 'ti-bag' # themify icon pack : https://themify.me/themify-icons
+    title = 'Salkkuni sisältö'
+    content = 'Olen innostunut sijoittamisesta kavereitteni kautta. Avaamalla salkkuni sisällön joudun perustelemaan myös itselleni mitä ostin, miksi ja milloin.'
+    link = '#'
+[[about.about_item]]
+    icon = 'ti-user' # themify icon pack : https://themify.me/themify-icons
+    title = 'Mie ite'
+    content = 'Ohjelmistoalan ammattilainen: harrastuksena musiikki, sijoittaminen ja säästäminen, lukeminen sekä ikuinen opiskelu.'
+    link = '#'
